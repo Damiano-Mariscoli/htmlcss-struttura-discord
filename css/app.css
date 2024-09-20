@@ -15,36 +15,50 @@ ul, ol{
 /* header */
 .header-layout{
     padding: 20px 400px;
+    background-color:#add8e6 ;
 }
-
-
-.nav-bar{
+.navbar{
     display: flex;
     align-items: center;
     justify-content: center;
     
-    
-    
-}
 
-.nav-menu{
+}
+.main-menu{
     display: flex;
-    min-height: auto;
-    align-items: center;
+    gap: 20px;
+    flex-basis:50%;
     justify-content: center;
-    
-}
+    align-items: center;
+    min-height: 40px;
+    max-width: 900px;
+    min-width: 800px;
+    padding-left: 10px;
+    padding-right: 10px;
 
+}
 .logo{
     display: flex;
-    align-items: center;
+    flex-basis: 25%;
     justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    min-height: 40px;
+    max-width: 100px;
+    min-width: 100px;
+
 }
 .login{
     display: flex;
-    align-items: center;
+    flex-basis: 25%;
     justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    min-height: 40px;
+    max-width: 100px;
+    min-width: 100px;
 }
+
 
 /* main */
 
@@ -65,40 +79,17 @@ section{
 
 
 
-/* UTIL */
-.nav-25{
-    width: 25%;
-}
-.nav-50{
-    width: 50%;
 
 
-}/* DEBUG */
+/* DEBUG */
 .debug {
     border:1px dashed black;
 }
-.debug.logo{
-    padding-left: 10px;
-    max-height: 40px;
-    flex-basis:25%;
-  
-}
-.debug.login{
-    padding-right: 10px;
-    max-height: 40px;
-    flex-basis:25%;
-    min-width: 100px;
-}
-.debug.nav-menu{
-    gap: 10px   ;
-    max-height: 40px;
-}
+
 .headerbg.header-layout{
     background-color:#add8e6;
 }
-.navbarbg.nav-bar{
-    background-color: #daa520;
-}
+
 .debug.container.magenta{
     background-color: magenta;
     height: 400px;
@@ -121,4 +112,7 @@ section{
     max-height: 400px;
     max-width: 600px;
     flex-basis: 15%;
+}
+.navbar .debug{
+    background-color: #daa520;
 }
