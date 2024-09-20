@@ -1,0 +1,49 @@
+/* RESET RULES */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul, ol{
+    list-style: none;
+}
+
+/* DEBUG */
+.debug-nav{
+    background-color: rgb(181, 181, 216);
+}
+.debug-header{
+    background-color: rgb(211, 181, 181);
+}
+.debug-nav-container{
+    border:dotted 1px;
+
+}
+
+/* LAYOUT */
+.main-header{
+    padding: 20px 80px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-menu{
+    display: flex;
+    min-height: 40px;
+    align-items: center;
+    gap: 20px   ;
+}
+.logo{
+    display: flex;
+    min-height: 40px;
+    align-items: center;
+}
+.login{
+    display: flex;
+    min-height: 40px;
+    align-items: center;
+}
