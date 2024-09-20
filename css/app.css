@@ -15,15 +15,25 @@ ul, ol{
 .debug-header{
     background-color: rgb(211, 181, 181);
 }
-.debug-nav-container{
-    border:dotted 1px;
-
+.debug-container{
+    border:dashed 1px;
+}
+.debug-colorbg{
+    background-color: red;
+}
+.debug-mainbg{
+    background-color:blue ;
 }
 
 /* LAYOUT */
-.main-header{
-    padding: 20px 80px;
+
+
+/* header */
+.header-layout{
+    padding: 20px 300px;
 }
+
+
 .nav-bar{
     display: flex;
     align-items: center;
@@ -44,8 +54,6 @@ ul, ol{
     align-items: center;
     justify-content: center;
 }
-
-
 /* splittare in 2 classi in caso di comportamento diverso del logo e del tasto login */
 .nav-side-element{
     display: flex;
@@ -53,6 +61,17 @@ ul, ol{
     align-items: center;
     justify-content: center;
 }
+
+
+/* main */
+.main-layout{
+    padding: 50px 400px;
+}
+.hero .container{
+    min-height: 400px;
+}
+
+
 
 
 /* UTIL */
