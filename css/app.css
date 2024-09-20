@@ -58,23 +58,30 @@ ul, ol{
 section{
     display:flex;
     justify-content: center;
-    padding: 100px;
+    padding: 100px 500px;
 
 }
 .container{
     display: flex;
     height: 400px;
-    width: 800px;
+    
+    
 }
 main > section:first-child{
     background-color: blue;
 }
 
-main > section:nth-child(2n+1):not(:first-child) {
+main > section:nth-child(odd):not(:first-child) {
     background-color: #d3d3d3;
 }
 main > section:last-child {
     background-color: #23272a;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    
+    
 }
 
 
@@ -90,8 +97,9 @@ main > section:last-child {
 
 .debug.container.magenta{
     background-color: magenta;
-    height: 400px;
-    width: 800px;
+    flex-basis: 100%;
+    max-width: 750px;
+    
 }
 .debug.section.magenta{
     padding: 50px;
@@ -99,17 +107,21 @@ main > section:last-child {
 
 .debug.container.cyan{
     background-color:#1e90ff;
-    max-height: 400px;
-    max-width: 600px;
-    flex-basis: 85%;
+    flex-basis: 90%;
     
 }
 .debug.container.pink{
     background-color: #ffc0cb;
-    max-height: 400px;
-    max-width: 600px;
-    flex-basis: 15%;
+    flex-basis: 10%;
 }
 .navbar .debug{
     background-color: #daa520;
+}
+.container.debug.green{
+    background-color: green;
+    flex-basis: 100%;
+    height: 800px;
+    
+    
+        
 }
