@@ -44,15 +44,18 @@ ul, ol{
 }
 
 /* main */
-.main-layout{
-    padding: 50px 600px;
+
+.bluebg{
+    background-color: blue;
+}
+section{
+    display:flex;
+    justify-content: center;
 }
 .container{
-    height: 50px;
+    display: flex;
+
 }
-
-
-
 
 /* UTIL */
 .nav-25{
@@ -83,4 +86,13 @@ ul, ol{
 }
 .navbarbg.nav-bar{
     background-color: #daa520;
+}
+.debug.container{
+    background-color: magenta;
+    min-height: 400px;
+    min-width: 800px;
+}
+.debug.section{
+    background-color: blue;
+    padding: 50px;
 }
