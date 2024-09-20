@@ -35,15 +35,30 @@ ul, ol{
     display: flex;
     min-height: 40px;
     align-items: center;
+    justify-content: center;
     gap: 20px   ;
 }
 .logo{
     display: flex;
     min-height: 40px;
     align-items: center;
+    justify-content: center;
 }
-.login{
+
+
+/* splittare in 2 classi in caso di comportamento diverso del logo e del tasto login */
+.nav-side-element{
     display: flex;
     min-height: 40px;
     align-items: center;
+    justify-content: center;
+}
+
+
+/* UTIL */
+.nav-25{
+    width: 25%;
+}
+.nav-50{
+    width: 50%;
 }
