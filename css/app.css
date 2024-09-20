@@ -8,26 +8,6 @@ ul, ol{
     list-style: none;
 }
 
-/* DEBUG */
-.debug .container{
-    border:2px dashed black;
-}
-.debug .container.logo{
-    padding-left: 10px;
-    min-height: 40px;
-}
-.debug .container.login{
-    padding-right: 10px;
-    min-height: 40px;
-}
-.debug .headerbg{
-    background-color:#add8e6;
-}
-.debug .navbarbg{
-    background-color: #daa520;
-}
-
-
 
 /* LAYOUT */
 
@@ -50,12 +30,8 @@ ul, ol{
     min-height: auto;
     align-items: center;
     justify-content: center;
-    gap: 10px   ;
-    height: 40px;
 }
 
-
-/* splittare in 2 classi in caso di comportamento diverso del logo e del tasto login */
 .logo{
     display: flex;
     align-items: center;
@@ -71,9 +47,8 @@ ul, ol{
 .main-layout{
     padding: 50px 600px;
 }
-.column{
-    display: flex;
-
+.container{
+    height: 50px;
 }
 
 
@@ -85,4 +60,27 @@ ul, ol{
 }
 .nav-50{
     width: 50%;
+
+
+}/* DEBUG */
+.debug {
+    border:1px dashed black;
+}
+.debug.logo{
+    padding-left: 10px;
+    min-height: 40px;
+}
+.debug.login{
+    padding-right: 10px;
+    min-height: 40px;
+}
+.debug.nav-menu{
+    gap: 10px   ;
+    height: 40px;
+}
+.headerbg.header-layout{
+    background-color:#add8e6;
+}
+.navbarbg.nav-bar{
+    background-color: #daa520;
 }
