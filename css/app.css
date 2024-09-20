@@ -21,7 +21,9 @@ ul, ol{
 .nav-bar{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    
+    
     
 }
 
@@ -30,6 +32,7 @@ ul, ol{
     min-height: auto;
     align-items: center;
     justify-content: center;
+    
 }
 
 .logo{
@@ -51,11 +54,16 @@ ul, ol{
 section{
     display:flex;
     justify-content: center;
+    padding: 100px;
+
 }
 .container{
     display: flex;
-
+    height: 400px;
+    width: 800px;
 }
+
+
 
 /* UTIL */
 .nav-25{
@@ -71,15 +79,19 @@ section{
 }
 .debug.logo{
     padding-left: 10px;
-    min-height: 40px;
+    max-height: 40px;
+    flex-basis:25%;
+  
 }
 .debug.login{
     padding-right: 10px;
-    min-height: 40px;
+    max-height: 40px;
+    flex-basis:25%;
+    min-width: 100px;
 }
 .debug.nav-menu{
     gap: 10px   ;
-    height: 40px;
+    max-height: 40px;
 }
 .headerbg.header-layout{
     background-color:#add8e6;
@@ -87,12 +99,26 @@ section{
 .navbarbg.nav-bar{
     background-color: #daa520;
 }
-.debug.container{
+.debug.container.magenta{
     background-color: magenta;
-    min-height: 400px;
-    min-width: 800px;
+    height: 400px;
+    width: 800px;
 }
-.debug.section{
+.debug.section.magenta{
     background-color: blue;
     padding: 50px;
+}
+
+.debug.container.cyan{
+    background-color:#1e90ff;
+    max-height: 400px;
+    max-width: 600px;
+    flex-basis: 85%;
+    
+}
+.debug.container.pink{
+    background-color: #ffc0cb;
+    max-height: 400px;
+    max-width: 600px;
+    flex-basis: 15%;
 }
