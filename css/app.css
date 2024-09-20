@@ -25,12 +25,14 @@ ul, ol{
     margin: 0 auto;
     padding: 10px;
     height: 50px;
+    
 }
 .main-menu{
     display: flex;
     flex-basis: 50%;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 .logo{
     display: flex;
@@ -64,8 +66,16 @@ section{
     height: 400px;
     width: 800px;
 }
+main > section:first-child{
+    background-color: blue;
+}
 
-
+main > section:nth-child(2n+1):not(:first-child) {
+    background-color: #d3d3d3;
+}
+main > section:last-child {
+    background-color: #23272a;
+}
 
 
 
@@ -84,7 +94,6 @@ section{
     width: 800px;
 }
 .debug.section.magenta{
-    background-color: blue;
     padding: 50px;
 }
 
