@@ -132,5 +132,26 @@ main > section:last-child {
    height:500px;
 }
 .footerbg{
-    
+    background-color:#23272a;
+    border-top: 1px solid white ;
+
+}
+.footer-nav{
+    display: flex;
+    justify-content:center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer-nav > .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7fffd4;
+    flex-basis: 60%;
+    height: 100px;
+}
+.footer-nav > .container > button{
+    padding: 10px;
+    background-color: #ffb6c1;
 }
