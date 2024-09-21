@@ -19,9 +19,8 @@ ul, ol{
 }
 .navbar{
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
-    max-width: 900px;
     margin: 0 auto;
     padding: 10px;
     height: 50px;
@@ -36,14 +35,14 @@ ul, ol{
 }
 .logo{
     display: flex;
-    flex-basis: 25%;
+    flex-basis: 15%;
     align-items: center;
     justify-content: flex-start;
     padding-left: 10px;
 }
 .login{
     display: flex;
-    flex-basis: 25%;
+    flex-basis: 15%;
     align-items: center;
     justify-content: flex-end;
     padding-right: 10px;
@@ -84,6 +83,7 @@ main > section:last-child {
 }
 .debug.container.magenta{
     background-color: magenta;
+    flex-basis: 40%;
 }
 
 
